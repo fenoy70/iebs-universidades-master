@@ -61,7 +61,7 @@ export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/iebs.unive
 export CORE_PEER_ADDRESS=localhost:7051
 peer channel join -b ./channel-artifacts/universidadeschannel.block
 
-export PEER0_BOGOTA_CA=${PWD}/organizations/peerOrganizations/fcf.universidades.com/peers/peer0.fcf.universidades.com/tls/ca.crt
+export PEER0_FCF_CA=${PWD}/organizations/peerOrganizations/fcf.universidades.com/peers/peer0.fcf.universidades.com/tls/ca.crt
 export CORE_PEER_LOCALMSPID="FcfMSP"
 export CORE_PEER_TLS_ROOTCERT_FILE=$PEER0_FCF_CA
 export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/fcf.universidades.com/users/Admin@fcf.universidades.com/msp
